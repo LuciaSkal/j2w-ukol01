@@ -1,0 +1,192 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    color: #282425;
+    background-image: linear-gradient(to right, lightpink, mediumpurple);
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0;
+}
+#myButton,
+#myButtonHobby,
+#myButtonContact {
+    width: 9rem;
+    height: 3rem;
+    background-color: hotpink;
+    border-radius: 2rem;
+    border: 0.5px solid #282425;
+    font-size: 1.5rem;
+    color: #282425;
+}
+
+.button-style {
+    margin-left: 80%;
+    margin-top: 5rem;
+    padding: 0;
+}
+
+h2,
+h3,
+a {
+    color: #282425;
+
+}
+
+#name-text {
+    font-size: 12rem;
+    font-weight: 1000;
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: url('https://www.ias.sn/media/posts/java.jpeg');
+    text-align: center;
+    margin: 3rem auto;
+}
+
+.letters {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.letter {
+    font-size: 8rem;
+    font-weight: 800;
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: url('https://image.shutterstock.com/image-illustration/3d-render-abstract-colorful-background-260nw-1984521299.jpg');
+    text-align: center;
+}
+
+.letters-style {
+    display: flex;
+    position: relative;
+}
+
+.hide {
+    font-size: 3rem;
+    font-weight: bolder;
+    color: white;
+    display: block;
+    margin-top: 5rem;
+    -webkit-text-stroke: 0.8px #282425;
+    position: relative;
+    right: 2.5rem;
+
+}
+
+.letter:hover + .hide {
+    right: -2%;
+}
+
+h2 {
+    padding-top: 1.5rem;
+    font-size: 3rem;
+    padding-left: 13rem;
+    margin: 1rem;
+}
+
+h3 {
+    font-size: 24px;
+    margin-top: 50px;
+}
+
+a {
+    text-underline: none;
+}
+
+section {
+    padding: 0.5rem;
+}
+
+.container {
+    min-width: 80vmin;
+    min-height: 25vmax;
+
+}
+
+.about-me {
+    margin: 2rem auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-me p {
+    margin-top: 2rem;
+    line-height: 3.2rem;
+}
+
+.photo-aboutMe {
+    width: 9%;
+    border-radius: 50%;
+    float: left;
+    margin-right: 2rem;
+
+}
+
+.photogalery {
+    margin-top: 1.25rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+figcaption {
+    text-align: center;
+}
+
+.container1 {
+    margin: 1% auto;
+    border: 1px solid pink;
+    width: 1000px;
+    height: 380px;
+    background-image: url("img/17687 (1).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact {
+    margin: 30% auto;
+    width: 38%;
+    height: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.flip-vertical-right {
+    -webkit-animation: flip-vertical-right 0.9s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+    animation: flip-vertical-right 0.9s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+}
+
+@-webkit-keyframes flip-vertical-right {
+    0% {
+        -webkit-transform: rotateY(0);
+        transform: rotateY(0);
+    }
+    100% {
+        -webkit-transform: rotateY(360deg);
+        transform: rotateY(360deg);
+    }
+}
+@keyframes flip-vertical-right {
+    0% {
+        -webkit-transform: rotateY(0);
+        transform: rotateY(0);
+    }
+    100% {
+        -webkit-transform: rotateY(360deg);
+        transform: rotateY(360deg);
+    }
+}
+
+
+

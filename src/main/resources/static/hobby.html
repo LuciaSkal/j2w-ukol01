@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Hobby</title>
+</head>
+<body>
+
+<section class="hobby">
+    <h2>Zájmy ...</h2>
+    <div class="container">
+        <div class="photogalery">
+            <figure>
+                <img src="img/chata.JPG" alt="chata v lese" width='250'>
+                <figcaption>Moje chatička v lesíku</figcaption>
+            </figure>
+            <figure>
+                <img src="img/vylety.JPG"  alt="vylet s detmi" width="250">
+                <figcaption>Výlety s dětmi</figcaption>
+            </figure>
+            <figure>
+                <img src="img/dortik.JPG"  alt="dort" width="250" height="300">
+                <figcaption>Rada peču dorty a <br> pořádam oslavy pro děti</figcaption>
+            </figure>
+        </div>
+        <div class="button-style">
+            <button id="myButton">Zpet...</button>
+        </div>
+    </div>
+</section>
+
+</body>
+<script type="text/javascript">
+    document.getElementById("myButton").onclick = function () {
+        location.href = "index.html";
+    };
+</script>
+</html>
