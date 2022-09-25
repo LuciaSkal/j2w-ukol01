@@ -1,15 +1,5 @@
 # Lekce 1, úkol 1
 
-Odkaz na muj medailonek:
-https://medailonek-lucia-skalinova.netlify.app/
-
-Po nacteni stranky, je potreba kliknout na pismena A,H,C,
-jsou to odkazy na dalsi stranky o mne, zajmy a kontakt.
-
-Lucia
-
-------------------------------------------------------------------------------------------------------------------------
-
 Cílem je připravit si svůj osobní webový medailonek (například na úrovni jednodenního workshopu [Tvořím web HTML/CSS](https://www.czechitas.cz/cs/co-delame/tvorim-web)).
 Soubory tvořící webovou stránku (`index.html`, styly, obrázky, …) uložíš do adresáře `/src/main/resources/static/` tak, aby při spuštění tvé aplikace byl
 medailonek zobrazen na úvodní stránce.

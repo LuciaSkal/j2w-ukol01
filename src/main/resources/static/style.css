@@ -14,28 +14,29 @@ body {
     line-height: 1.5;
     margin: 0;
 }
-#myButton,
-#myButtonHobby,
-#myButtonContact {
-    width: 9rem;
-    height: 3rem;
+
+.button-style {
+    float: right;
+    margin-right: 10rem;
+    margin-top: 3rem;
+}
+
+.button-style {
+    width: 8rem;
+    height: 2.5rem;
     background-color: hotpink;
     border-radius: 2rem;
     border: 0.5px solid #282425;
     font-size: 1.5rem;
     color: #282425;
-}
-
-.button-style {
-    margin-left: 80%;
-    margin-top: 5rem;
-    padding: 0;
+    text-align: center;
 }
 
 h2,
 h3,
 a {
     color: #282425;
+    text-decoration: none;
 
 }
 
@@ -96,10 +97,6 @@ h2 {
 h3 {
     font-size: 24px;
     margin-top: 50px;
-}
-
-a {
-    text-underline: none;
 }
 
 section {
